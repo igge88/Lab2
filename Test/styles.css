@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.1)), url(img/HeadPhones\ black.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  color: white;
+}
+
+.btn.dropdown-toggle {
+  width: 150px;
+  text-align: center;
+}
+
+span.caret {
+  position: absolute;
+  left: 90%;
+  top: 45%;
+}
+
+label {
+  padding-top: 5px;
+}
+
+.form-label {
+  padding-left: 0px !important;
+}
+
+.form-control {
+  border-radius: 100px;
+}
+
+.btn-success {
+  background-color: #9e068a !important;
+  /*spotify green: 3b7d4a */
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #e30cc7 !important;
+}
+
+img.track {
+  border: 3px solid #8a8a8a;
+}
+
+#song-detail {
+  color: white;
+}
